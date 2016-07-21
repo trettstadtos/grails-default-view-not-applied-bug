@@ -1,7 +1,0 @@
-import json.Book
-
-model {
-  Iterable <Book> books
-}
-
-json (books.collect {g.render (it, [excludes: ['author']])})

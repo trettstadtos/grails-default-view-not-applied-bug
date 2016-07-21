@@ -1,7 +1,0 @@
-import json.User
-
-model {
-  Iterable <User> users
-}
-
-json (users.collect {g.render (it)})

@@ -1,10 +1,8 @@
-package json
+package com.github.trettstadtos
 
 class UrlMappings {
 
     static mappings = {
-
-        "/api/book/$action?"(controller: 'book', namespace: 'api')
 
         "/$controller/$action?/$id?(.$format)?"{
             constraints {

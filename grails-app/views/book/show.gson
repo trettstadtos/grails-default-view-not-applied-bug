@@ -1,7 +1,0 @@
-import json.Book
-
-model {
-  Book book
-}
-
-json g.render (book, [excludes: ['author']])

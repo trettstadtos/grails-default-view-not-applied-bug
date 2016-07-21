@@ -54,6 +54,9 @@ grails:
     spring:
         transactionManagement:
             proxies: false
+    sitemesh:
+        default:
+            layout: mylayout
 info:
     app:
         name: '@info.app.name@'
